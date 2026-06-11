@@ -8,23 +8,15 @@ Developed within the context of Southeastern University's Registrar Operations, 
 
 Data Structure Overview
 ---
-|--------------------|-----------|----------------------------------------------------------------------------------------|
-|Field Name          | Data Type | Description                                                                            |
-|--------------------|-----------|----------------------------------------------------------------------------------------|
-|Course_and_sectionID| String    | Unique alphanumeric key combining the course prefix and section listing                |
-|--------------------|-----------|----------------------------------------------------------------------------------------| 
-|Department          | String    | Categorical variable representing the academic division (e.g., ACTG, ARTV, BIOL)       |
-|--------------------|-----------|----------------------------------------------------------------------------------------|
-|Loc_code            | String    | Categorical variable identifying the campus or delivery modality (e.g., MAIN, ONLN)    |
-|--------------------|-----------|----------------------------------------------------------------------------------------|
-|Max_enrollment      | Integer   | The administrative capacity boundary for a section                                     |
-|--------------------|-----------|----------------------------------------------------------------------------------------|
-|Crs_enrollment      | Integer   | The active headcount of students enrolled in the specific section                      |
-|--------------------|-----------|----------------------------------------------------------------------------------------|
-|Enrollment_ratio    | Float     | Utilization metric, calculated by (Crs_enrollment / Max_enrollment)                    |
-|--------------------|-----------|----------------------------------------------------------------------------------------|
-|Demand_gap          | Integer   | Quantified empty seat inventory metric, calculated by (Max_enrollment - Crs_enrollment)| 
-|--------------------|-----------|----------------------------------------------------------------------------------------|
+| Field Name | Data Type | Description |
+| :--- | :--- | :--- |
+| **Course_and_sectionID** | String | Unique alphanumeric key combining the course prefix and section listing. |
+| **Department** | String | Categorical variable representing the academic division (e.g., ACTG, ARTV, BIOL). |
+| **Loc_code** | String | Categorical variable identifying the campus or delivery modality (e.g., MAIN, ONLN). |
+| **Max_enrollment** | Integer | The administrative capacity boundary for a section. |
+| **Crs_enrollment** | Integer | The active headcount of students enrolled in the specific section. |
+| **Enrollment_ratio** | Float | Utilization metric, calculated by `Crs_enrollment / Max_enrollment`. |
+| **Demand_gap** | Integer | Quantified empty seat inventory metric, calculated by `Max_enrollment - Crs_enrollment`. |
 
 Executive Summary
 ---
