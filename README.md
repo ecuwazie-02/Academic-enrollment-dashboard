@@ -20,6 +20,15 @@ Data Structure Overview
 
 Executive Summary
 ---
+An evaluation of Southeastern University's enrollment data establishes key performance metrics:
+ - Total Active Course Portfolio: 1,349 distinct course sections
+ - Institutional Capacity Utilization Rate: The university possesses an average enrollment ratio of 58.31%, signaling a notable surplus of unutilized capacity.
+ - Total Portfolio Capacity Slack: An aggregate of 15,802 vacant student seats across the entire University further illustrates significant unutilized capacity.
+
+To transform these baseline performance metrics into immediate operational actions, the application uses programmatic filters to identify structural outliers:
+  - Underutilized Sections Flag: Automatically isolates sections operating below a critical 15% capacity threshold, highlighting opportunities for class consolidations or cancellations.
+  - Over-capacity Sections Flag: Automatically catches supply bottlenecks for sections with capacity of 99% or above, identifying immediate need for section expansions or room allocations. 
+
 
 Insights Deep Dive
 ---
