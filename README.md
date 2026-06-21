@@ -42,10 +42,22 @@ Grouping utilization profiles by departments reveals specific operational bottle
 
  - High-Demand Divisions: Specific core curricula display significant strain, regularly triggering over-capacity alerts ($\ge 99\%$) that indicate unmet student demand.
   
- - Low-Demand Specializations: Specialized or legacy divisions (e.g., AVIP at 11.20% average utilization across 333 listings) run excessive open capacity. This structural      mismatch explains a major portion of the portfolio's 15,802 seat deficit.
- - 
+ - Low-Demand Specializations: Specialized or legacy divisions (e.g., AVIP at 11.20% average utilization across 333 listings) run excessive open capacity. This structural mismatch explains a major portion of the enrollment portfolio's 15,802 seat deficit.
+   
 3. Non-Linear Modeling via "What-If" Projections
+
 The built-in algorithmic simulation engine bypasses static projections by dynamically scaling variables. If a user models a macro enrollment decline of 10%, the platform updates metrics across all tables and charts. This real-time update reveals exactly how many low-margin sections drop below the financial survival line, giving leadership the exact data needed to mitigate revenue and operational risks before a semester begins.
 
 Recommendations
 ---   
+1. Programmatic Section Consolidation
+   
+Use the Underutilized Courses tracking module to target sections running below 15% capacity for structural consolidation. In low-performing departments, leadership should combine matching courses into centralized sections to free up faculty resources and lower facility overhead.
+   
+2. Strategic Modality Shifting
+   
+Address underperforming locations with an utilization under 20% by moving their course inventories to higher-performing delivery channels or hybrid models. This strategy reallocates localized instructional expenses toward more high-demand hubs such as ONLN and MAIN.
+   
+3. Data-Driven Dynamic Scheduling
+   
+Integrate the interactive simulation framework into the university's annual registration workflows. By testing hypothetical registration scenarios during active enrollment cycles, scheduling managers can dynamically add sections to over-capacity courses ($\ge 99\%$) and sunset low-demand offerings before institutional resources are locked in.
