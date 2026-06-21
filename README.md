@@ -32,6 +32,20 @@ To transform these baseline performance metrics into immediate operational actio
 
 Insights Deep Dive
 ---
+1. Regional Utilization Inefficiencies
+   
+Aggregating performance metrics by geographic Location (Loc_code) uncovers significant regional utilization variances. Campus locations such as BSIDE achieve healthy, operational metrics with an average utilization rate of 69.19%. Conversely, extreme underutilization appears in certain satellite campuses. Locations like EHAR operate at a low 2.00% utilization rate, while BURL logs a flat 0.00% baseline across 40 scheduled courses. This indicates an immediate need to audit satellite campus operations.
+
+2. Departmental Portfolio Variances
+
+Grouping utilization profiles by departments reveals specific operational bottlenecks: 
+
+ - High-Demand Divisions: Specific core curricula display significant strain, regularly triggering over-capacity alerts ($\ge 99\%$) that indicate unmet student demand.
+  
+ - Low-Demand Specializations: Specialized or legacy divisions (e.g., AVIP at 11.20% average utilization across 333 listings) run excessive open capacity. This structural      mismatch explains a major portion of the portfolio's 15,802 seat deficit.
+ - 
+3. Non-Linear Modeling via "What-If" Projections
+The built-in algorithmic simulation engine bypasses static projections by dynamically scaling variables. If a user models a macro enrollment decline of 10%, the platform updates metrics across all tables and charts. This real-time update reveals exactly how many low-margin sections drop below the financial survival line, giving leadership the exact data needed to mitigate revenue and operational risks before a semester begins.
 
 Recommendations
 ---   
