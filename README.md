@@ -4,7 +4,7 @@ Background and Overview
 ---
 In higher education administration, efficient resource allocation is critical to maintaining financial health and operational balance. Traditional academic course planning relies heavily on retrospective spreadsheet reports. 
 
-Developed within the context of Southeastern University's Registrar Operations, this project introduces an [interactive Enrollment Analytics and Capacity Planning Dashboard](https://academic-enrollment-dashboard-qfrgt3ndbjm3jxvavzvmk3.streamlit.app/) built using Python and the open-source web-builder package, Streamlit. This dashboard transforms administrative enrollment data into a self-service analytics tool. Using real-time data, the dashboard provides utilization flags and a data-driven scaling simulator.
+Developed within the context of Southeastern University's Registrar Operations, this project introduces an interactive [Enrollment Analytics and Capacity Planning Dashboard](https://academic-enrollment-dashboard-qfrgt3ndbjm3jxvavzvmk3.streamlit.app/) built using Python and the open-source web-builder package, Streamlit. This dashboard transforms administrative enrollment data into a self-service analytics tool. Using real-time data, the dashboard provides utilization flags and a data-driven scaling simulator.
 
 Data Structure Overview
 ---
